@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Qwitcher+Grypen:wght@400;700&family=Sacramento&display=swap');
+
+.creditcard {
+  width: 600px;
+  height: 400px;
+  background-color: rgb(94, 26, 107);
+  border-radius: 20px;
+  padding: 40px;
+}
+
+.half {
+    height: 50%;
+    width: 100%;
+}
+
+.card-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.signal {
+    transform: rotate(90deg);
+}
+
+.top-right {
+  font-family: "Sacramento", cursive;
+  font-weight: bold;
+  font-style: normal;
+    font-size: 110px;
+}
+
+.credit-card-numbers {
+    display: flex;
+    justify-content: space-around;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.credit-card-data-and-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.credit-card-data{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.dates {
+    font-size: 40px;
+}
+
+.credit-card-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cardholder-name {
+    font-size: 40px;
+}
